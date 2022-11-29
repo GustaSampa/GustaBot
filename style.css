@@ -196,3 +196,41 @@ input, select, textarea, .form-button {
 .form-button:hover {
     background-color: rgba(236, 214, 196, 0.53);
 }
+
+.content-feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature-title {
+    font-family: 'Righteous', cursive;
+    font-weight: 400px;
+    font-size: 30px;
+    color: #fff2e7;
+}
+
+.feature-paragraph {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #c4c5ec;
+    text-align: center;
+    margin: 0;
+}
+
+.content-feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 18px;
+}
+
+.content-feature-write {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-around;
+}
