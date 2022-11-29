@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #30518f 16.62%, #863a48 85.61%);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.header-image {
+    height: 72px;
+}
+
+.header-image:hover {
+    transform: rotate(360deg);
+    transition: 3s ease;
+}
+
+.header-menu {
+    display: flex;
+    gap: 50px;
+}
+
+.header-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.content {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #fff2e7;
+}
+
+.content-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-main-write {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content-main-write-title { 
+    font-family: 'Righteous', cursive;
+    font-weight: 400px;
+    font-size: 64px;
+    color: #fff2e7;
+}
+
+.content-main-write-subtitle {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #c4c5ec;
+}
+
+.content-main-write-button {
+    background-color: #c4c5ec;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #2f2325;
+}
+
+.content-main-write-button:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.content-main-image {
+    height: 490px;
+    padding: 100px;
+}
+
+.content-main-image:hover {
+    transform: rotate(360deg);
+    transition: 3s ease;
+}
+
+.content-secondary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.content-secondary-title {
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400px;
+    font-size: 24px;
+    color: #fff2ef;
+    margin-bottom: 16px;
+}
+
+.content-secondary-paragraph {
+    font-family: 'Saralla', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #c4c5ec;
+}
+
+footer {
+    padding: 32px;
+    border-top: 0.4px solid #fff2e7
+}
+
+.footer-image {
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer-image:hover {
+    transition: scale(1.1);
+    transform: scale(1.1);
+}
+
+.content-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form-title {
+    font-family: 'Righteous', cursive;
+    font-weight: 400px;
+    font-size: 64px;
+    color: #fff2e7;
+}
+
+.form-paragraph {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #c4c5ec;
+}
+
+input, select, textarea, .form-button {
+    border-radius: 10px;
+    width: 400px;
+}
+
+.form-field {
+    margin-bottom: 1em;
+}
+
+.form-field label {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 0,2em;
+    color: #c4c5ec;
+    display: block;
+}
+
+.form-button {
+    background-color: #c4c5ec;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #2f2325;
+}
+
+.form-button:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
