@@ -234,3 +234,10 @@ input, select, textarea, .form-button {
     align-items: center;
     justify-content: space-around;
 }
+
+.content-main-write-paragraph {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #c4c5ec;
+}
